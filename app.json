@@ -25,12 +25,23 @@
         "monochromeImage": "./assets/android-icon-monochrome.png",
         "backgroundColor": "#E6F4FE"
       },
-      "predictiveBackGestureEnabled": false
+      "permissions": []
     },
 
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "platforms": ["ios", "android", "web"]
+
+    "extra": {
+      "eas": {
+        "projectId": "replace-this-with-your-real-expo-project-id"
+      }
+    },
+
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ]
   }
 }
